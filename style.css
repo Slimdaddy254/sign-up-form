@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /* Ensure the body and html take up the full height */
 html, body {
     height: 100%;
@@ -15,7 +14,6 @@ html, body {
     align-items: center;
     background-color: #f0f0f0;
 }
-
 /* Main container for the login form, centered on the page */
 .login-container {
     width: 1000px;
@@ -23,10 +21,8 @@ html, body {
     height: 600px;
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    
+    background-color: #fff;  
 }
-
 /* Left panel with the background image */
 .left-panel {
     width: 40%;
@@ -34,19 +30,15 @@ html, body {
     background-size: cover;
     background-position: center;
     position: relative;
-     /* Add this to ensure the absolute positioning works */
 }
-
 /* Right panel containing the form */
 .right-panel {
     width: 60%;
     display: block;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-
 /* Logo container */
 .logo-container {
     display: flex;
@@ -61,13 +53,11 @@ html, body {
     padding: 0 10px;
     box-sizing: border-box;
 }
-
 /* Logo image styling */
 .logo-container img {
     height: 80%; /* Make the logo image fill the height of the container */
     margin-right: 10px;
 }
-
 /* Styling for the text next to the logo */
 .logo-container span {
     font-family: 'customFont', Arial, Helvetica, sans-serif;
@@ -90,8 +80,7 @@ html, body {
     height: 250px;
     flex-direction: column;
     background-color: rgb(227, 241, 225);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 .login-form h2{
     padding-left: 30px;
@@ -100,15 +89,12 @@ html, body {
 .form-items {
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
-   
+    padding-left: 30px;  
 }
-
 /* Styling for form-right and form-left to split the columns */
 .form-right, .form-left {
     width: 48%; /* Adjust the width to fit two columns */
 }
-
 /* Styling for labels and inputs */
 label {
     display: block;
@@ -117,7 +103,6 @@ label {
     color: rgb(51, 51, 51, 0.8);
     font-size: small;
 }
-
 input[type="text"], 
 input[type="email"], 
 input[type="number"], 
@@ -130,6 +115,9 @@ input[type="password"] {
     background-color: rgb(242, 247, 241);
     border: 1px solid rgb(204, 204, 204, 0.5);
     border-radius: 5px;
+}
+input[type="password"]:invalid {
+    border-color: red;
 }
 button{
     background-color: rgb(57, 100, 64);
@@ -150,4 +138,3 @@ button{
 a{
     color: rgb(57, 100, 64);
 }
-
