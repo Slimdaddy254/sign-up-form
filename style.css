@@ -131,4 +131,23 @@ input[type="password"] {
     border: 1px solid rgb(204, 204, 204, 0.5);
     border-radius: 5px;
 }
+button{
+    background-color: rgb(57, 100, 64);
+    margin: 30px;
+    padding: 15px;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: medium;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 8px;
+}
+.login-link{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+a{
+    color: rgb(57, 100, 64);
+}
 
